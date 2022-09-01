@@ -16,7 +16,7 @@ class XylophoneApp extends StatelessWidget {
       ),
       home: Scaffold(
         body:SafeArea(
-          child:Center(child: Text(nouns.last)),
+          child:Center(child: Text(nouns.first)),
         )
       )
     );
